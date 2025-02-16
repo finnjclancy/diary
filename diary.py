@@ -3,9 +3,10 @@ from tkinter import ttk, messagebox
 from datetime import datetime
 import os
 import random
+from dotenv import load_dotenv
 
-# --- App Password ---
-APP_PASSWORD = "fuck"  # Change this to your desired password
+load_dotenv()
+APP_PASSWORD = os.getenv("APP_PASSWORD")
 
 # --- File Paths and Directories ---
 GOALS_DIR = "goal_entries"
