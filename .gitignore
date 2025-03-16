@@ -2,3 +2,11 @@
 dream_entries/
 goal_entries/
 journal_entries/
+.DS_Store/
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
